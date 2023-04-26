@@ -18,6 +18,5 @@ npm run dev
 Now the app is accessible at ```localhost:3000```
 
 # My Social Media
-The examples are posted here:
-[Facebook](https://www.facebook.com/QuyenGiaSuJS)
+### [Facebook](https://www.facebook.com/QuyenGiaSuJS)
 
