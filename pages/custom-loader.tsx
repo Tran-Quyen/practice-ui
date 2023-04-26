@@ -2,11 +2,11 @@ import React from 'react';
 import Container from '@components/Container';
 
 const CustomLoader = () => {
-    return <>
-      <Container>
-        <span className="loader"></span>
-      </Container>
-      <style jsx>
+  return <>
+    <Container>
+      <span className="loader"></span>
+    </Container>
+    <style jsx>
       {`
 .loader {
     width: 54px;
@@ -20,7 +20,7 @@ const CustomLoader = () => {
 }
 
 .loader::after {
-  content: '';  
+  content: '';
   box-sizing: border-box;
   position: absolute;
   left: 50%;
@@ -40,10 +40,10 @@ const CustomLoader = () => {
   100% {
     transform: rotate(360deg);
   }
-} 
+}
 `}
-                </style>
-    </>
+    </style>
+  </>
 }
 
 export default CustomLoader;

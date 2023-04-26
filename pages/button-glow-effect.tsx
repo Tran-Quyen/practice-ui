@@ -1,7 +1,7 @@
 import React from 'react';
 
 const page = () => {
-   return (
+    return (
         <>
             <span className='background'>
                 <a
@@ -12,7 +12,7 @@ const page = () => {
                 </a>
             </span>
             <style jsx>
-                    {`
+                {`
 .background {
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ const page = () => {
 
 .button-glow:before {
     content: '';
-    background: linear-gradient(to right, #B881FF, #7ED956, #FF9950, #ED6A5E, #B881FF, #7ED956, #FF9950, #ED6A5E, #B881FF); 
+    background: linear-gradient(to right, #B881FF, #7ED956, #FF9950, #ED6A5E, #B881FF, #7ED956, #FF9950, #ED6A5E, #B881FF);
     position: absolute;
     background-size: 300%;
     z-index: -1;
@@ -81,9 +81,9 @@ const page = () => {
     100% { background-position: 0 0; }
 }
 `}
-                </style>
+            </style>
         </>
-   ) 
+    )
 
 }
 

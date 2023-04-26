@@ -14,7 +14,7 @@ export const ProfileCard = () => {
                 I'm JavaScript full-stack engineer, love working with <em>React</em> and <em>Node.js</em>.
             </div>
             <style jsx>
-                    {`
+                {`
 .card {
     display: grid;
     grid-template-rows: 96px 48px 48px 1fr;
@@ -45,7 +45,7 @@ export const ProfileCard = () => {
     grid-row: 2 / 4;
     grid-column: 1 / -1;
     padding: 0 24px;
-    z-index: 1;  
+    z-index: 1;
 }
 
 .profile-name {

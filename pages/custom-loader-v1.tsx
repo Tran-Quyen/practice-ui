@@ -3,11 +3,11 @@ import Container from '@components/Container';
 
 const CustomLoader = () => {
     return <>
-      <Container>
-        <span className="loader"></span>
-      </Container>
-      <style jsx>
-      {`
+        <Container>
+            <span className="loader"></span>
+        </Container>
+        <style jsx>
+            {`
 .loader {
     width: 54px;
     height: 54px;
@@ -20,7 +20,7 @@ const CustomLoader = () => {
 }
 
 .loader::after {
-  content: '';  
+  content: '';
   box-sizing: border-box;
   position: absolute;
   left: 50%;
@@ -47,7 +47,7 @@ const CustomLoader = () => {
     }
 }
 `}
-                </style>
+        </style>
     </>
 }
 

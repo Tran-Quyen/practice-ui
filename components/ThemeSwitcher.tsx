@@ -25,7 +25,7 @@ const ThemeSwitcher = () => {
             className={
                 classnames({
                     [s['theme-switcher']]: true,
-                    [s['theme-switcher--dark']]: 
+                    [s['theme-switcher--dark']]:
                         activeTheme === 'DARK'
                 })
             }

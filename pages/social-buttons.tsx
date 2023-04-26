@@ -1,7 +1,7 @@
 import React from 'react';
 
 const inputPage = () => {
-   return (
+    return (
         <>
             <span className='background'>
                 <span className='social-media-buttons'>
@@ -50,8 +50,8 @@ const inputPage = () => {
     outline-offset: 3px;
 }
 .social-media-button:hover:nth-child(1) {
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    outline: 2px solid linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    outline: 2px solid linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
 }
 
 .social-media-button:hover:nth-child(2) {
@@ -68,7 +68,7 @@ const inputPage = () => {
                 `}
             </style>
         </>
-   ) 
+    )
 
 }
 

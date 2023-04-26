@@ -1,7 +1,7 @@
 import React from 'react';
 
 const inputPage = () => {
-   return (
+    return (
         <>
             <span style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#3F396F', width: '100vw', height: '100vh' }}>
                 <div className="field">
@@ -30,7 +30,7 @@ const inputPage = () => {
                 overflow: hidden;
                 transform: scale(1.2);
             }
-              
+
             .field input {
                 position: absolute;
                 height: 100%;
@@ -42,7 +42,7 @@ const inputPage = () => {
                 border: none;
                 box-sizing: border-box;
             }
-              
+
             .field .label-wrapper {
                 position: absolute;
                 height: 100%;
@@ -53,7 +53,7 @@ const inputPage = () => {
                 pointer-events: none;
                 border-bottom: 1px solid white;
             }
-              
+
             .field .label-wrapper::after {
                 content: "";
                 position: absolute;
@@ -65,21 +65,21 @@ const inputPage = () => {
                 transform: translateX(-100%);
                 transition: transform 0.2s ease;
             }
-              
+
             .field .label-text {
                 position: absolute;
                 bottom: 5px;
                 left: 0px;
                 transition: all 0.2s ease;
             }
-              
+
             .field input:focus + .label-wrapper .label-text,
             .field input:valid + .label-wrapper .label-text {
                 font-size: 12px;
                 color: #FF9950;
                 transform: translateY(-150%);
             }
-            
+
             .field input:focus + .label-wrapper::after,
             .field input:valid + .label-wrapper::after {
                 transform: translateX(0%);
@@ -87,7 +87,7 @@ const inputPage = () => {
                 `}
             </style>
         </>
-   ) 
+    )
 
 }
 

@@ -18,7 +18,7 @@ const CardScrollSnap = () => {
                 </div>
             </div>
             <style jsx>
-                        {`  
+                {`
 html {
     scroll-behavior: smooth;
 }
@@ -28,7 +28,7 @@ html {
     flex-direction: column;
     gap: 24px;
     padding: 16px;
-    max-height: 176px; 
+    max-height: 176px;
     max-width: 220px;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
@@ -81,7 +81,7 @@ html {
 
 .container::-webkit-scrollbar-thumb:hover {
     background: #FF9950;
-} 
+}
 `}
             </style>
         </>

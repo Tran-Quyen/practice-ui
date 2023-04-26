@@ -3,7 +3,7 @@ import Container from '@components/Container';
 
 const cardsFlipEffectGallery = () => {
     return <>
-      <Container>
+        <Container>
             <div className="gallery">
                 <div className="card">
                     <div className="card__side">
@@ -30,9 +30,9 @@ const cardsFlipEffectGallery = () => {
                     </div>
                 </div>
             </div>
-      </Container>
-      <style jsx>
-                    {`
+        </Container>
+        <style jsx>
+            {`
 body {
     display: flex;
     justify-content: center;
@@ -57,11 +57,11 @@ body {
     transition: 1s ease-in-out;
     transform-style: preserve-3d;
 }
-  
+
 .card:hover {
     transform: rotateY(0.5turn);
 }
-  
+
 .card__side {
     position: absolute;
     top: 0;
@@ -82,7 +82,7 @@ body {
     object-fit: cover;
 }
 `}
-                </style>
+        </style>
     </>
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const inputPage = () => {
-   return (
+    return (
         <>
             <span style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#3F396F', width: '100vw', height: '100vh' }}>
                 <input className="search" />
@@ -25,7 +25,7 @@ const inputPage = () => {
                 background-size: 22px;
                 background-position: 45% 50%;
               }
-              
+
             .search:hover {
                 cursor: pointer;
                 border: 1px solid #FF9950;
@@ -33,7 +33,7 @@ const inputPage = () => {
                 background-size: 22px;
                 background-position: 45% 50%;
             }
-            
+
             .search:focus {
                 width: 200px;
                 cursor: pointer;
@@ -49,7 +49,7 @@ const inputPage = () => {
                 `}
             </style>
         </>
-   ) 
+    )
 
 }
 

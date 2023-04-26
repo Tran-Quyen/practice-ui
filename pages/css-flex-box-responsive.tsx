@@ -1,7 +1,7 @@
 import React from 'react';
 
 const inputPage = () => {
-   return (
+    return (
         <>
             <section className='container'>
                 <article className='card'>
@@ -35,7 +35,7 @@ const inputPage = () => {
                 `}
             </style>
         </>
-   ) 
+    )
 
 }
 

@@ -1,13 +1,13 @@
 import React from 'react';
 
 const zoomPage = () => {
-   return (
+    return (
         <>
             <div className="zoom-wrapper">
                 <img src="/images/mountain_view.jpg" alt="Mountain View" />
             </div>
             <style jsx>
-                    {`.zoom-wrapper {
+                {`.zoom-wrapper {
     height: 200px;
     width: 300px;
     overflow: hidden;
@@ -19,13 +19,13 @@ const zoomPage = () => {
     height: 100%;
     cursor: pointer;
 }
-  
+
 .zoom-wrapper:hover img {
-    transform: scale(1.5); 
+    transform: scale(1.5);
 }`}
-                </style>
+            </style>
         </>
-   )
+    )
 }
 
 export default zoomPage;

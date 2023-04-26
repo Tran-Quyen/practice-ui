@@ -1,7 +1,7 @@
 import React from 'react';
 
 const inputPage = () => {
-   return (
+    return (
         <>
             <span className='background'>
                 <span className='faq'>
@@ -40,7 +40,7 @@ summary {
                 `}
             </style>
         </>
-   ) 
+    )
 
 }
 

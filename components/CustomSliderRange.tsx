@@ -17,7 +17,7 @@ const CustomRange = () => {
                 id="myRange"
             />
             <style jsx>
-                        {`  
+                {`
 .range {
     -webkit-appearance: none;
     -moz-appearance: none;

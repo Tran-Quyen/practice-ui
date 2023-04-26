@@ -70,7 +70,7 @@ const DirectoryPage = () => {
             <li>
                 <Link href="/menu-items-hover">
                     <a>
-                        Menu Items Hover 
+                        Menu Items Hover
                     </a>
                 </Link>
             </li>

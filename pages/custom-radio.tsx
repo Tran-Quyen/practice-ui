@@ -4,21 +4,21 @@ import Container from '@components/Container';
 
 const CustomRadio = () => {
     return <>
-      <Container>
-        <div className='radio-container'>
-            <div>
-                <input type="radio" id="javascript" name="language" value="javascript" /><label htmlFor="javascript">JavaScript</label>
+        <Container>
+            <div className='radio-container'>
+                <div>
+                    <input type="radio" id="javascript" name="language" value="javascript" /><label htmlFor="javascript">JavaScript</label>
+                </div>
+                <div>
+                    <input type="radio" id="python" name="language" value="python" /><label htmlFor="python">Python</label>
+                </div>
+                <div>
+                    <input type="radio" id="scala" name="language" value="scala" /><label htmlFor="scala">Scala</label>
+                </div>
             </div>
-            <div>
-                <input type="radio" id="python" name="language" value="python"/><label htmlFor="python">Python</label>
-            </div>
-            <div>
-                <input type="radio" id="scala" name="language" value="scala"/><label htmlFor="scala">Scala</label>
-            </div>
-        </div>
-      </Container>
-      <style jsx>
-        {`
+        </Container>
+        <style jsx>
+            {`
             .radio-container {
                 display: flex;
                 flex-direction: column;
@@ -31,7 +31,7 @@ const CustomRadio = () => {
                 appearance: none;
                 vertical-align: text-bottom;
                 width: 20px;
-                height: 20px;  
+                height: 20px;
                 padding: 1.5px;
                 background-clip: content-box;
                 border: 2px solid white;
@@ -39,7 +39,7 @@ const CustomRadio = () => {
                 border-radius: 50%;
                 margin-right: 12px;
                 transition: 0.2s ease-in;
-                cursor: pointer;                   
+                cursor: pointer;
             }
 
             input[type="radio"]:checked {
@@ -58,7 +58,7 @@ const CustomRadio = () => {
                 vertical-align: text-bottom;
             }
         `}
-      </style>
+        </style>
     </>
 }
 
