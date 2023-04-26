@@ -4,7 +4,7 @@ This is repository with examples of simple UI components. The repository is base
 
 * Clone the repo with
 ```
-git clone 
+git clone https://github.com/Tran-Quyen/practice-ui.git
 ```
 * Install npm packages
 ```
@@ -19,5 +19,5 @@ Now the app is accessible at ```localhost:3000```
 
 # My Social Media
 The examples are posted here:
-
+[Facebook](https://www.facebook.com/QuyenGiaSuJS)
 
